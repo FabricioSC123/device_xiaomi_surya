@@ -1,8 +1,0 @@
-[
-    {
-    	"repository":	"windeqk/vendor_PocoParts",
-	"target_path":	"vendor/PocoParts",
-	"remote":	"github",
-	"branch":	"ssos"
-    }
-]
