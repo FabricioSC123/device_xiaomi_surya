@@ -121,14 +121,14 @@ void vendor_load_properties()
      * Detect device and configure properties
      */
     if (GetProperty("ro.boot.hwname", "") == "karna") { // POCO X3 (India)
-        set_device_props("POCO", "karna", "M2007J20CI", "karna_in");
+        set_device_props("POCO", "karna", "POCO X3", "karna_in");
         property_override("ro.product.marketname", "POCO X3");
         property_override("ro.product.mod_device", "surya_in_global");
-        property_override("ro.product.model", "M2007J20CI");
+        property_override("ro.product.model", "POCO X3");
         property_override("ro.product.system.model", "qssi system image for arm64");
-        property_override("ro.product.vendor.model", "M2007J20CI");
+        property_override("ro.product.vendor.model", "POCO X3");
         property_override("ro.product.product.model", "qssi system image for arm64");
-        property_override("ro.product.odm.model", "M2007J20CI");
+        property_override("ro.product.odm.model", "POCO X3");
         property_override("ro.product.system_ext.model", "qssi system image for arm64");
         property_override("ro.product.build.fingerprint", "qti/qssi/qssi:11/RKQ1.200826.002/V12.5.1.0.RJGMIXM:user/release-keys");
         property_override("ro.system_ext.build.fingerprint", "qti/qssi/qssi:11/RKQ1.200826.002/V12.5.1.0.RJGMIXM:user/release-keys");
@@ -139,14 +139,14 @@ void vendor_load_properties()
         property_override("ro.build.fingerprint", "POCO/karna_global/karna:11/RKQ1.200826.002/V12.5.1.0.RJGMIXM:user/release-keys");
         property_override("ro.build.description", "karna_global-user 11 RKQ1.200826.002 V12.5.1.0.RJGMIXM release-keys");
     } else { // POCO X3 NFC
-        set_device_props("POCO", "surya", "M2007J20CI", "surya_global");
+        set_device_props("POCO", "surya", "POCO X3 NFC", "surya_global");
         property_override("ro.product.marketname", "POCO X3 NFC");
         property_override("ro.product.mod_device", "surya_global");
-        property_override("ro.product.model", "M2007J20CI");
+        property_override("ro.product.model", "POCO X3 NFC");
         property_override("ro.product.system.model", "qssi system image for arm64");
-        property_override("ro.product.vendor.model", "M2007J20CI");
+        property_override("ro.product.vendor.model", "POCO X3 NFC");
         property_override("ro.product.product.model", "qssi system image for arm64");
-        property_override("ro.product.odm.model", "M2007J20CI");
+        property_override("ro.product.odm.model", "POCO X3 NFC");
         property_override("ro.product.system_ext.model", "qssi system image for arm64");
         property_override("ro.product.build.fingerprint", "qti/qssi/qssi:11/RKQ1.200826.002/V12.5.1.0.RJGMIXM:user/release-keys");
         property_override("ro.system_ext.build.fingerprint", "qti/qssi/qssi:11/RKQ1.200826.002/V12.5.1.0.RJGMIXM:user/release-keys");
