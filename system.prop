@@ -7,6 +7,13 @@ vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,org.line
 # Charger
 ro.charger.enable_suspend=true
 
+# Fix safetynet
+ro.product.model=BASIC
+ro.product.system.model=BASIC
+ro.product.vendor.model=BASIC
+ro.product.product.model=BASIC
+ro.product.odm.model=BASIC
+
 # CNE
 persist.vendor.cne.feature=1
 
