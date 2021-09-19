@@ -15,8 +15,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/waken_surya.mk
+    $(LOCAL_DIR)/lighthouse_surya.mk
 
 COMMON_LUNCH_CHOICES := \
-    awaken_surya-userdebug
+    lighthouse_surya-userdebug
   
