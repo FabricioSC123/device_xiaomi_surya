@@ -7,6 +7,10 @@ vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,org.line
 # Charger
 ro.charger.enable_suspend=true
 
+# Gboard
+ro.com.google.ime.kb_pad_port_b=1
+ro.com.google.ime.corner_key_r=32
+
 # Fix safetynet
 ro.product.model=BASIC
 ro.product.system.model=BASIC
